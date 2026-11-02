@@ -18,19 +18,19 @@ jobs:
         run: pip install shapely openpyxl
       - name: Calles de tierra y vias rapidas
         continue-on-error: true
-        run: python scripts/osm_datos.py
+        run: python osm_datos.py
       - name: Estadios y recintos
         continue-on-error: true
-        run: python scripts/estadios_datos.py
+        run: python estadios_datos.py
       - name: Escuelas con direccion
         continue-on-error: true
-        run: python scripts/escuelas_datos.py
+        run: python escuelas_datos.py
       - name: Rosario
         continue-on-error: true
-        run: python scripts/rosario_datos.py
+        run: python rosario_datos.py
       - name: Zonas de alerta
         continue-on-error: true
-        run: python scripts/zonas_alerta.py
+        run: python zonas_alerta.py
       - name: Guardar resultados
         run: |
           git config user.name "radiAr bot"
