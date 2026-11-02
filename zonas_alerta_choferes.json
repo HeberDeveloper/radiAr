@@ -1,0 +1,12 @@
+{
+  "nota": "Barrios con concentración de hechos violentos según fuentes públicas. Es un dato de ubicación, no un juicio sobre las personas. En pantalla solo dice ZONA ALERTA.",
+  "ciudades": [
+    {"id": "quilmes_choferes", "pais": "AR", "ciudad": "quilmes", "bbox": "-34.85,-58.40,-34.65,-58.10", "barrios": [
+      {"nombre": "Springfield", "alias": ["Villa Springfield", "Barrio Springfield"], "renabap": "Quilmes", "directo": true, "fuente": "Reporte de choferes de apps (dueño de radiAr, 31/10/2026): villa de Quilmes. Polígono del Registro Nacional de Barrios Populares si figura con ese nombre", "tipo": "reporte de choferes"},
+      {"nombre": "Los Álamos", "alias": ["Los Alamos"], "renabap": "Quilmes", "directo": true, "fuente": "Reporte de choferes de apps (dueño de radiAr, 31/10/2026). Barrio de Quilmes incluido en un plan municipal de urbanización (Radio Reflejos, 2021)", "tipo": "reporte de choferes"},
+      {"nombre": "Eucaliptus", "alias": ["Los Eucaliptus", "Eucaliptus"], "renabap": "Quilmes", "directo": true, "fuente": "Reporte de choferes de apps (dueño de radiAr, 31/10/2026). Barrio de Quilmes incluido en un plan municipal de urbanización (Radio Reflejos, 2021)", "tipo": "reporte de choferes"},
+      {"nombre": "Triángulo de Bernal", "directo": true, "fuente": "Reporte de choferes de apps (dueño de radiAr, 31/10/2026). En Bernal Oeste mataron a un chofer de DiDi; el juicio fue en 2024 (Crónica)", "tipo": "reporte de choferes"},
+      {"nombre": "Acceso Sudeste en Bernal", "todas": [["acceso sudeste", "bernal"]], "fuente": "Reporte de choferes de apps (dueño de radiAr, 31/10/2026)", "tipo": "reporte de choferes"}
+    ]}
+  ]
+}

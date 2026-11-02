@@ -1,0 +1,41 @@
+name: Datos OpenStreetMap
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 1 * *"
+permissions:
+  contents: write
+jobs:
+  osm:
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Instalar librerias
+        run: pip install shapely openpyxl
+      - name: Calles de tierra y vias rapidas
+        continue-on-error: true
+        run: python scripts/osm_datos.py
+      - name: Estadios y recintos
+        continue-on-error: true
+        run: python scripts/estadios_datos.py
+      - name: Escuelas con direccion
+        continue-on-error: true
+        run: python scripts/escuelas_datos.py
+      - name: Rosario
+        continue-on-error: true
+        run: python scripts/rosario_datos.py
+      - name: Zonas de alerta
+        continue-on-error: true
+        run: python scripts/zonas_alerta.py
+      - name: Guardar resultados
+        run: |
+          git config user.name "radiAr bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add datos
+          git commit -m "Actualizar datos" || echo "sin cambios"
+          git pull --rebase
+          git push

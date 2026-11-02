@@ -1,0 +1,85 @@
+{
+  "nota": "Barrios con concentración de hechos violentos según fuentes públicas del 31/10/2026. Es un dato de ubicación, no un juicio sobre las personas. En pantalla solo dice ZONA ALERTA. Cada ciudad exige que la oferta nombre la ciudad. 'alias' son otros nombres que usa OpenStreetMap. Sin lista: conurbano bonaerense (solo hay datos por partido, no por barrio), Paraguay fuera de Asunción, y Belo Horizonte, Porto Alegre, Curitiba y Fortaleza. Los barrios que sumen los choferes se agregan como 'reporte de choferes'.",
+  "ciudades": [
+    {"id": "rosario", "pais": "AR", "ciudad": "rosario", "bbox": "-33.12,-60.90,-32.80,-60.50", "barrios": [
+      {"nombre": "Empalme Graneros", "fuente": "La Capital 2025; Ministerio de Seguridad de Santa Fe 2023", "tipo": "medio"},
+      {"nombre": "Ludueña", "fuente": "La Capital 2025", "tipo": "medio"},
+      {"nombre": "Nuevo Alberdi", "fuente": "La Capital 2025", "tipo": "medio"},
+      {"nombre": "Larrea", "fuente": "La Capital 2025; Ministerio de Seguridad 2023", "tipo": "medio"},
+      {"nombre": "Vía Honda", "fuente": "Ministerio de Seguridad 2023", "tipo": "medio"},
+      {"nombre": "Industrial", "alias": ["Barrio Industrial"], "fuente": "La Capital 2025; Ministerio de Seguridad 2023", "tipo": "medio"},
+      {"nombre": "Triángulo", "fuente": "La Capital 2025; Ministerio de Seguridad 2023", "tipo": "medio"},
+      {"nombre": "Moderno", "fuente": "La Capital 2025; Ministerio de Seguridad 2023", "tipo": "medio"},
+      {"nombre": "Godoy", "fuente": "La Capital 2025", "tipo": "medio"},
+      {"nombre": "Villa Banana", "fuente": "La Capital 2025", "tipo": "medio"},
+      {"nombre": "Tablada", "alias": ["La Tablada"], "fuente": "La Capital 2025; Ministerio de Seguridad 2023", "tipo": "medio"},
+      {"nombre": "Las Flores", "fuente": "La Capital 2025; Ministerio de Seguridad 2023", "tipo": "medio"},
+      {"nombre": "República de la Sexta", "fuente": "La Capital 2025", "tipo": "medio"},
+      {"nombre": "Hospitales", "fuente": "La Capital 2025", "tipo": "medio"},
+      {"nombre": "Saladillo", "fuente": "La Capital 2025", "tipo": "medio"},
+      {"nombre": "Puente Gallego", "fuente": "La Capital 2025", "tipo": "medio"},
+      {"nombre": "San Martín Sur", "fuente": "La Capital 2025", "tipo": "medio"},
+      {"nombre": "17 de Agosto", "fuente": "Ministerio de Seguridad 2023", "tipo": "medio"},
+      {"nombre": "Santa Lucía", "fuente": "Ministerio de Seguridad 2023", "tipo": "medio"}
+    ]},
+    {"id": "caba", "pais": "AR", "ciudad": "buenos aires", "bbox": "-34.71,-58.54,-34.52,-58.33", "barrios": [
+      {"nombre": "Barracas", "fuente": "Mapa del Delito de la Ciudad: el barrio con más homicidios (17); Cronista", "tipo": "oficial"},
+      {"nombre": "Retiro", "fuente": "Mapa del Delito: 14 homicidios y alto nivel de robos (Cronista, iProfesional)", "tipo": "oficial"},
+      {"nombre": "Constitución", "fuente": "Mapa del Delito: robos y hurtos, estación Constitución (iProfesional, Canal 26)", "tipo": "oficial"},
+      {"nombre": "Balvanera", "fuente": "Mapa del Delito: lidera robos y hurtos (Cronista, iProfesional)", "tipo": "oficial"},
+      {"nombre": "San Cristóbal", "fuente": "Mapa del Delito: tasa de robos y hurtos más alta junto con Balvanera (iProfesional)", "tipo": "oficial"},
+      {"nombre": "Villa 1-11-14", "alias": ["Barrio Padre Ricardo Rillo", "1-11-14"], "fuente": "Mapa del Delito: concentración de homicidios (El Economista, Minutouno)", "tipo": "oficial"},
+      {"nombre": "Villa 31", "alias": ["Barrio Padre Carlos Mugica", "Barrio 31"], "fuente": "Mapa del Delito: concentración de homicidios (El Economista, Minutouno)", "tipo": "oficial"},
+      {"nombre": "Villa 21-24", "alias": ["Barrio 21-24", "21-24"], "fuente": "Mapa del Delito: concentración de homicidios (El Economista, Minutouno)", "tipo": "oficial"},
+      {"nombre": "Villa 20", "alias": ["Barrio Villa 20"], "fuente": "Mapa del Delito: concentración de homicidios (El Economista, Minutouno)", "tipo": "oficial"}
+    ]},
+    {"id": "asuncion", "pais": "PY", "ciudad": "asuncion", "bbox": "-25.40,-57.70,-25.22,-57.50", "barrios": [
+      {"nombre": "Chacarita", "alias": ["Ricardo Brugada"], "fuente": "Policía Nacional, jefe de Policía del Área Metropolitana (Última Hora)", "tipo": "medio"},
+      {"nombre": "Santísima Trinidad", "fuente": "Policía Nacional, jefe de Policía del Área Metropolitana (Última Hora)", "tipo": "medio"},
+      {"nombre": "Tablada Nueva", "alias": ["Tablada"], "fuente": "Policía Nacional, jefe de Policía del Área Metropolitana (Última Hora)", "tipo": "medio"},
+      {"nombre": "Barrio Obrero", "fuente": "Policía Nacional, jefe de Policía del Área Metropolitana (Última Hora)", "tipo": "medio"},
+      {"nombre": "Roberto L. Petit", "fuente": "Policía Nacional, jefe de Policía del Área Metropolitana (Última Hora)", "tipo": "medio"},
+      {"nombre": "Bañado Sur", "fuente": "Operativos policiales y zona roja de la Costanera Sur (Última Hora, Hoy)", "tipo": "medio"},
+      {"nombre": "Zeballos Cué", "fuente": "Hechos policiales y allanamientos reiterados (Última Hora)", "tipo": "medio"},
+      {"nombre": "Tacumbú", "fuente": "Cárcel y microtráfico (Última Hora: 14 barrios de Asunción con microtráfico)", "tipo": "medio"}
+    ]},
+    {"id": "sao_paulo", "pais": "BR", "ciudad": "sao paulo", "bbox": "-24.01,-46.83,-23.36,-46.36", "barrios": [
+      {"nombre": "Capão Redondo", "fuente": "SSP 2025: lidera los robos; índice de exposición a crímenes violentos 2022-2023 (BNews, Gazeta SP)", "tipo": "oficial"},
+      {"nombre": "Campo Limpo", "fuente": "SSP 2025: robos de celular y asaltos (BNews)", "tipo": "oficial"},
+      {"nombre": "Parque Santo Antônio", "fuente": "SSP 2025: asaltos (BNews)", "tipo": "oficial"},
+      {"nombre": "Jardim Herculano", "fuente": "SSP 2025: asaltos (BNews)", "tipo": "oficial"},
+      {"nombre": "São Mateus", "fuente": "SSP 2025: segundo en asaltos, con 11% de aumento (BNews)", "tipo": "oficial"},
+      {"nombre": "Campos Elíseos", "fuente": "SSP: lideró los robos del primer semestre; después bajó cerca de 28% (Gazeta SP, BNews)", "tipo": "oficial"}
+    ]},
+    {"id": "rio", "pais": "BR", "ciudad": "rio de janeiro", "bbox": "-23.10,-43.80,-22.74,-43.10", "barrios": [
+      {"nombre": "Vila Isabel", "fuente": "Fogo Cruzado 2025: barrio con más tiroteos (74)", "tipo": "medio"},
+      {"nombre": "Cascadura", "fuente": "Fogo Cruzado 2025 y primer semestre de 2026", "tipo": "medio"},
+      {"nombre": "Vicente de Carvalho", "fuente": "Fogo Cruzado 2025", "tipo": "medio"},
+      {"nombre": "Maré", "alias": ["Complexo da Maré"], "fuente": "Fogo Cruzado: primero del primer semestre de 2026", "tipo": "medio"},
+      {"nombre": "Taquara", "fuente": "Fogo Cruzado 2026", "tipo": "medio"},
+      {"nombre": "Penha Circular", "fuente": "Fogo Cruzado 2026", "tipo": "medio"},
+      {"nombre": "Bangu", "fuente": "Fogo Cruzado 2026", "tipo": "medio"},
+      {"nombre": "Cidade de Deus", "fuente": "Fogo Cruzado", "tipo": "medio"},
+      {"nombre": "Gardênia Azul", "fuente": "Fogo Cruzado", "tipo": "medio"},
+      {"nombre": "Curicica", "fuente": "Fogo Cruzado 2026", "tipo": "medio"},
+      {"nombre": "Complexo do Alemão", "alias": ["Alemão"], "fuente": "Fogo Cruzado", "tipo": "medio"},
+      {"nombre": "Jacarezinho", "fuente": "Fogo Cruzado", "tipo": "medio"}
+    ]},
+    {"id": "salvador", "pais": "BR", "ciudad": "salvador", "bbox": "-13.03,-38.56,-12.78,-38.29", "barrios": [
+      {"nombre": "Beiru", "alias": ["Tancredo Neves"], "fuente": "Fogo Cruzado 2025: barrio con más tiroteios (35)", "tipo": "medio"},
+      {"nombre": "Lobato", "fuente": "Fogo Cruzado 2025 (31)", "tipo": "medio"},
+      {"nombre": "Mussurunga", "fuente": "Fogo Cruzado 2025 (27)", "tipo": "medio"},
+      {"nombre": "Fazenda Coutos", "fuente": "Fogo Cruzado 2025 (26)", "tipo": "medio"},
+      {"nombre": "Federação", "fuente": "Fogo Cruzado 2025 (26)", "tipo": "medio"},
+      {"nombre": "Castelo Branco", "fuente": "Fogo Cruzado 2025 (25)", "tipo": "medio"},
+      {"nombre": "Mata Escura", "fuente": "Fogo Cruzado 2025 (24)", "tipo": "medio"}
+    ]},
+    {"id": "recife", "pais": "BR", "ciudad": "recife", "bbox": "-8.22,-35.06,-7.93,-34.84", "barrios": [
+      {"nombre": "Dois Unidos", "fuente": "Fogo Cruzado 2025: 35 baleados", "tipo": "medio"},
+      {"nombre": "Nova Descoberta", "fuente": "Fogo Cruzado 2025: 33 baleados", "tipo": "medio"},
+      {"nombre": "Afogados", "fuente": "Fogo Cruzado: lidera tiroteios en octubre de 2025", "tipo": "medio"},
+      {"nombre": "Muribeca", "fuente": "Fogo Cruzado 2025: 35 baleados (Jaboatão dos Guararapes)", "tipo": "medio"},
+      {"nombre": "Prazeres", "fuente": "Fogo Cruzado 2025: 31 baleados (Jaboatão dos Guararapes)", "tipo": "medio"}
+    ]}
+  ]
+}
