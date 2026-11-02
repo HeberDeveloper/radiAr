@@ -1,0 +1,564 @@
+{
+ "nota": "Zonas a evitar que comparten los choferes de apps (AMBA). Es un dato de ubicación, no un juicio sobre las personas. En pantalla solo dice ZONA ALERTA. 'noche': true = solo de 20 a 7 (horario estimado). 'todas' = la oferta tiene que nombrar todas las palabras del grupo (para nombres que se repiten en otros lugares).",
+ "ciudades": [
+  {
+   "id": "caba_choferes",
+   "pais": "AR",
+   "ciudad": "buenos aires",
+   "bbox": "-34.71,-58.54,-34.52,-58.33",
+   "barrios": [
+    {
+     "nombre": "Pavón y Salta",
+     "todas": [
+      [
+       "pavon",
+       "salta"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Constitución, cinco cuadras a la redonda",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Zavaleta",
+     "alias": [
+      "Barrio Zavaleta",
+      "Zabaleta",
+      "Barrio Zabaleta"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Barracas y Pompeya, cerca del barrio",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Bajo Flores",
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): todo el día y la noche",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Villa Soldati",
+     "directo": true,
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): de noche, todo",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Piedrabuena",
+     "alias": [
+      "Barrio Piedrabuena",
+      "General Savio",
+      "Barrio General Savio"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Lugano, zona de monoblocks",
+     "tipo": "reporte de choferes"
+    }
+   ]
+  },
+  {
+   "id": "la_matanza_choferes",
+   "pais": "AR",
+   "ciudad": "",
+   "bbox": "-34.92,-58.75,-34.62,-58.50",
+   "barrios": [
+    {
+     "nombre": "Villa Celina",
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026)",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "La Tablada",
+     "directo": true,
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): de noche, todo; zona de monoblocks",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Villa Madero",
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): algunas partes",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Puerta de Hierro",
+     "alias": [
+      "Barrio Puerta de Hierro"
+     ],
+     "directo": true,
+     "renabap": "La Matanza",
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): San Justo",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Fondo de Polledo",
+     "todas": [
+      [
+       "polledo",
+       "rafael castillo"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Rafael Castillo",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "San Petersburgo",
+     "alias": [
+      "Barrio San Petersburgo"
+     ],
+     "directo": true,
+     "renabap": "La Matanza",
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Isidro Casanova",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Laferrere",
+     "alias": [
+      "Gregorio de Laferrere"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): todo",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Gonzalez Catan",
+     "alias": [
+      "González Catán"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): todo",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Virrey del Pino",
+     "directo": true,
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): de noche, todo",
+     "tipo": "reporte de choferes"
+    }
+   ]
+  },
+  {
+   "id": "oeste_choferes",
+   "pais": "AR",
+   "ciudad": "",
+   "bbox": "-34.80,-59.00,-34.55,-58.55",
+   "barrios": [
+    {
+     "nombre": "Villa Carlos Gardel",
+     "alias": [
+      "Barrio Carlos Gardel"
+     ],
+     "directo": true,
+     "renabap": "Morón",
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Morón",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "William Morris",
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Hurlingham, el fondo",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Libertad (Merlo)",
+     "todas": [
+      [
+       "libertad",
+       "merlo"
+      ]
+     ],
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): más que nada de noche; calles en muy mal estado",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Barrio Rivadavia (Merlo)",
+     "todas": [
+      [
+       "barrio rivadavia"
+      ],
+      [
+       "rivadavia",
+       "merlo"
+      ]
+     ],
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Merlo, más que nada de noche",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Matera",
+     "alias": [
+      "Barrio Matera"
+     ],
+     "directo": true,
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Merlo, más que nada de noche",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Pontevedra",
+     "directo": true,
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Merlo, más que nada de noche",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Mariano Acosta (Merlo)",
+     "todas": [
+      [
+       "mariano acosta",
+       "merlo"
+      ]
+     ],
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Merlo, más que nada de noche",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Villa Trujui",
+     "alias": [
+      "Trujui",
+      "Trujuy",
+      "Villa Trujuy"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Moreno",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Los Paraísos (Moreno)",
+     "todas": [
+      [
+       "los paraisos",
+       "moreno"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Moreno",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "La Perlita (Moreno)",
+     "todas": [
+      [
+       "la perlita",
+       "moreno"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Moreno",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "La Perla (Moreno)",
+     "todas": [
+      [
+       "la perla",
+       "moreno"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Moreno",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "La Reja",
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Moreno",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Cascallares",
+     "alias": [
+      "Puente Cascallares"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Moreno",
+     "tipo": "reporte de choferes"
+    }
+   ]
+  },
+  {
+   "id": "sur_choferes",
+   "pais": "AR",
+   "ciudad": "",
+   "bbox": "-34.92,-58.48,-34.63,-58.18",
+   "barrios": [
+    {
+     "nombre": "Lanus Oeste",
+     "alias": [
+      "Lanús Oeste"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026)",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Valentin Alsina",
+     "alias": [
+      "Valentín Alsina"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Lanús",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Dock Sud",
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Avellaneda",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Ingeniero Budge",
+     "alias": [
+      "Ing. Budge",
+      "Ing Budge"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Lomas de Zamora",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Fiorito",
+     "alias": [
+      "Villa Fiorito"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Lomas de Zamora",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Claypole",
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Almirante Brown",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Don Orione",
+     "alias": [
+      "Barrio Don Orione"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Almirante Brown",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Florencio Varela",
+     "directo": true,
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): de noche, todo",
+     "tipo": "reporte de choferes"
+    }
+   ]
+  },
+  {
+   "id": "norte_choferes",
+   "pais": "AR",
+   "ciudad": "",
+   "bbox": "-34.64,-58.85,-34.25,-58.48",
+   "barrios": [
+    {
+     "nombre": "La Rana (San Martín)",
+     "todas": [
+      [
+       "la rana",
+       "san martin"
+      ],
+      [
+       "villa la rana"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): San Martín",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Fuerte Apache",
+     "alias": [
+      "Barrio Ejercito de los Andes",
+      "Ejército de los Andes"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Tres de Febrero",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "La Cava",
+     "todas": [
+      [
+       "la cava",
+       "beccar"
+      ],
+      [
+       "la cava",
+       "san isidro"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Beccar",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Bajo Boulogne",
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Boulogne, atrás del shopping",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Tigre",
+     "directo": true,
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): más que nada de noche",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Villa Garrote",
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Tigre",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Rincon de Milberg",
+     "alias": [
+      "Rincón de Milberg"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Tigre",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Barrio San Pablo (Tigre)",
+     "todas": [
+      [
+       "san pablo",
+       "tigre"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Tigre",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Bancalari (Don Torcuato)",
+     "todas": [
+      [
+       "bancalari",
+       "don torcuato"
+      ],
+      [
+       "bancalari",
+       "tigre"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Don Torcuato",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "San Fernando",
+     "directo": true,
+     "noche": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): más que nada de noche",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Villa 25 (San Fernando)",
+     "todas": [
+      [
+       "villa 25",
+       "san fernando"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): San Fernando",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Barrio Manuelita",
+     "todas": [
+      [
+       "manuelita",
+       "san miguel"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): San Miguel",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Villa Mitre (San Miguel)",
+     "todas": [
+      [
+       "villa mitre",
+       "san miguel"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): San Miguel",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Barrio Obligado",
+     "todas": [
+      [
+       "obligado",
+       "san miguel"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): San Miguel",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Jose C Paz",
+     "alias": [
+      "José C. Paz",
+      "Jose C. Paz"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): todo",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Garin",
+     "alias": [
+      "Garín"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Escobar",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Amancay",
+     "todas": [
+      [
+       "amancay",
+       "escobar"
+      ],
+      [
+       "amancay",
+       "garin"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Escobar",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "La Chechela",
+     "alias": [
+      "Chechela"
+     ],
+     "directo": true,
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Escobar",
+     "tipo": "reporte de choferes"
+    },
+    {
+     "nombre": "Barrio Frigorifico",
+     "todas": [
+      [
+       "frigorifico",
+       "escobar"
+      ],
+      [
+       "frigorifico",
+       "garin"
+      ]
+     ],
+     "fuente": "Reporte de choferes de apps (lista compartida por el dueño de radiAr, 2/11/2026): Escobar",
+     "tipo": "reporte de choferes"
+    }
+   ]
+  }
+ ]
+}

@@ -4,7 +4,7 @@ Poligonos de cada barrio: de OpenStreetMap (ODbL) o, si el barrio tiene "renabap
 Nacional de Barrios Populares (RENABAP, Desarrollo Social), que trae el poligono de cada villa o asentamiento.
 Con el poligono saca 1) las calles que quedan casi enteras adentro, 2) el centro y 3) el contorno simplificado
 ("poly": anillos con latitud y longitud alternadas), que la app usa para ubicar Plus Codes y coordenadas.
-"directo": true = entra tambien por su nombre. "todas" = la oferta debe nombrar todas las palabras de un grupo.
+"directo": true = entra tambien por su nombre. "noche": true = solo de noche. "todas" = la oferta debe nombrar todas las palabras de un grupo.
 Salida: datos/zonas/zona_alerta_AR.json, _PY.json y _BR.json. Necesita: pip install shapely"""
 import csv
 import glob
@@ -231,6 +231,9 @@ def ciudad(c):
                 "fuente": b["fuente"], "fuente_tipo": b["tipo"], "estimado": True}
         if todas:
             item["todas"] = todas
+        # Solo de noche (reporte de choferes): la app la muestra de 20 a 7 (horario estimado).
+        if b.get("noche"):
+            item["noche"] = True
         if anillos:
             item["poly"] = anillos
             item["centro"] = [round(centro.y, 6), round(centro.x, 6)]
