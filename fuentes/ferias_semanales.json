@@ -1,0 +1,13 @@
+{
+  "nota": "Ferias que se repiten cada semana. El script las convierte en fechas para los próximos 60 días. Los horarios con (estimado) no los publica la fuente. Solo entran ferias con día y horario publicados; falta cargar las ferias zonales del conurbano (La Salada de Ingeniero Budge, Ocean y otras) porque no hallé una fuente con días y horarios vigentes.",
+  "ferias": [
+    {"nombre": "Feria de Mataderos", "dias": ["domingo"], "desde": "11:00", "hasta": "20:00", "meses": [4, 5, 6, 7, 8, 9, 10, 11, 12],
+     "claves": ["de los corrales", "lisandro de la torre"], "fuente": "Turismo de la Ciudad de Buenos Aires: domingos y feriados, de abril a diciembre; Av. Lisandro de la Torre y Av. de los Corrales. Se suspende por lluvia. Otras notas dicen 11 a 18."},
+    {"nombre": "Feria de San Telmo", "dias": ["domingo"], "desde": "10:00", "hasta": "17:00", "meses": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+     "claves": ["plaza dorrego", "defensa"], "fuente": "Canal 26 y Meteored: Plaza Dorrego (Defensa y Humberto Primo), domingos de 10 a 17"},
+    {"nombre": "Feria de Plaza Serrano o Plaza Cortázar", "dias": ["viernes", "sabado", "domingo"], "desde": "11:00", "hasta": "20:00", "meses": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+     "claves": ["plaza serrano", "plaza cortazar"], "fuente": "Canal 26: Honduras y Serrano, viernes, sábados, domingos y feriados desde las 11 (hora de cierre estimada)"},
+    {"nombre": "Feria de Plaza Francia (Recoleta)", "dias": ["sabado", "domingo"], "desde": "10:00", "hasta": "20:00", "meses": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+     "claves": ["plaza francia"], "fuente": "Canal 26: sábados, domingos y feriados de 10 a 20, Av. Pueyrredón y Av. del Libertador"}
+  ]
+}
