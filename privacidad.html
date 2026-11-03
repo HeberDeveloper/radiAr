@@ -37,7 +37,6 @@ h1{font-size:clamp(20px,4.5vw,26px);margin:8px 0 4px;font-weight:700}
 .card:before{content:"";position:absolute;left:0;top:0;height:2px;width:100%;background:linear-gradient(90deg,transparent,var(--cy),var(--mg),transparent);opacity:.8}
 .card h2{display:flex;align-items:center;gap:12px;font-size:1.12em;margin:2px 0 10px;color:#fff}
 .num{flex:none;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:.85em;font-weight:800;color:var(--bg);background:linear-gradient(135deg,var(--cy),var(--vi));box-shadow:0 0 14px rgba(34,229,255,.5)}
-.card p,.card li{color:var(--tx)}
 .card ul{margin:0;padding-left:20px}
 .card li{margin:6px 0}
 .card li::marker{color:var(--cy)}
@@ -61,7 +60,7 @@ footer{text-align:center;color:var(--mut);font-size:.9em;margin-top:28px}
 <div class="orbita"><i></i><i></i><i></i><span></span></div>
 <p class="marca">rad<b>iA</b>r</p>
 <h1>Política de privacidad</h1>
-<p class="meta">Última actualización: 2 de noviembre de 2026<br>Responsable: HEBER OVANDO · Contacto: <a href="mailto:hachexdos@gmail.com">hachexdos@gmail.com</a></p>
+<p class="meta">Última actualización: 3 de noviembre de 2026<br>Responsable: HEBER OVANDO · Contacto: <a href="mailto:hachexdos@gmail.com">hachexdos@gmail.com</a></p>
 <div class="chips">
 <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="#22e5ff" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4"/></svg>Todo en tu teléfono</span>
 <span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="#ff3fd2" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg>No guarda tus datos</span>
@@ -70,17 +69,16 @@ footer{text-align:center;color:var(--mut);font-size:.9em;margin-top:28px}
 </header>
 
 <section class="card ver">
-<p>radiAr es una app para choferes de apps de viaje. Calcula la ganancia neta estimada de cada oferta y reúne herramientas para ayudarte a cuidarte al volante.</p>
+<p>radiAr es una app para choferes de apps de viaje. Calcula la ganancia neta estimada de cada oferta y muestra alertas de seguridad.</p>
 </section>
 
 <section class="card ver">
 <h2><span class="num">1</span>Qué información procesa y qué pasa con ella</h2>
-<div class="dato"><h3>Texto visible de las apps de viaje que elegís</h3><dl><dt>Qué</dt><dd>Pago, minutos, kilómetros, direcciones y etiquetas de la oferta, leídos con el servicio de accesibilidad</dd><dt>Para qué</dt><dd>Calcular y mostrarte la ganancia neta</dd><dt>Dónde queda</dt><dd>Memoria del teléfono, solo mientras se calcula</dd><dt>¿Se envía?</dt><dd><span class="no">No</span></dd></dl></div>
+<div class="dato"><h3>Texto visible de las apps de viaje</h3><dl><dt>Qué</dt><dd>Pago, minutos, kilómetros, direcciones y etiquetas de la oferta, leídos con el servicio de accesibilidad, solo cuando una app de viaje está en pantalla</dd><dt>Para qué</dt><dd>Calcular y mostrarte la ganancia neta y las alertas</dd><dt>Dónde queda</dt><dd>Memoria del teléfono, solo mientras se calcula</dd><dt>¿Se envía?</dt><dd><span class="no">No</span></dd></dl></div>
 <div class="dato"><h3>Capturas de pantalla de esas apps</h3><dl><dt>Para qué</dt><dd>Reconocer el texto en el teléfono cuando la app no lo entrega</dd><dt>Dónde queda</dt><dd>Memoria del teléfono; se descartan al terminar</dd><dt>¿Se envía?</dt><dd><span class="no">No</span></dd></dl></div>
-<div class="dato"><h3>Datos del pasajero que aparezcan en la oferta</h3><dl><dt>Qué</dt><dd>Nombre, calificación</dd><dt>Para qué</dt><dd>Ninguno: se ignoran</dd><dt>Dónde queda</dt><dd>No se guardan</dd><dt>¿Se envía?</dt><dd><span class="no">No</span></dd></dl></div>
+<div class="dato"><h3>Datos del pasajero que aparezcan en la oferta</h3><dl><dt>Qué</dt><dd>Nombre, calificación, cantidad de viajes</dd><dt>Para qué</dt><dd>Solo la cantidad de viajes, para avisar si el pasajero es nuevo; el resto se ignora</dd><dt>Dónde queda</dt><dd>No se guardan</dd><dt>¿Se envía?</dt><dd><span class="no">No</span></dd></dl></div>
 <div class="dato"><h3>Lo que cargás en Mi auto</h3><dl><dt>Qué</dt><dd>Tamaño, antigüedad, combustible, consumo, metas</dd><dt>Para qué</dt><dd>Calcular tu costo por kilómetro</dd><dt>Dónde queda</dt><dd>Almacenamiento de radiAr en tu teléfono</dd><dt>¿Se envía?</dt><dd><span class="no">No</span></dd></dl></div>
-<div class="dato"><h3>Qué app está en primer plano</h3><dl><dt>Qué</dt><dd>Acceso a datos de uso</dd><dt>Para qué</dt><dd>Ubicar el menú sin tapar la oferta</dd><dt>Dónde queda</dt><dd>No se guarda</dd><dt>¿Se envía?</dt><dd><span class="no">No</span></dd></dl></div>
-<div class="dato"><h3>Listas de datos públicos</h3><dl><dt>Qué</dt><dd>Escuelas, eventos, zonas, precios</dd><dt>Para qué</dt><dd>Mostrar etiquetas informativas</dd><dt>Dónde queda</dt><dd>Almacenamiento de radiAr</dd><dt>¿Se envía?</dt><dd><span class="si">Descarga</span> Se descargan de nuestra página en GitHub Pages; GitHub recibe tu dirección IP como cualquier sitio web</dd></dl></div>
+<div class="dato"><h3>Listas de datos públicos</h3><dl><dt>Qué</dt><dd>Escuelas, ferias, eventos, zonas de alerta y calles</dd><dt>Para qué</dt><dd>Mostrar alertas informativas</dd><dt>Dónde queda</dt><dd>Almacenamiento de radiAr</dd><dt>¿Se envía?</dt><dd><span class="si">Descarga</span> Se descargan de nuestra página en GitHub Pages; GitHub recibe tu dirección IP como cualquier sitio web</dd></dl></div>
 <div class="dato"><h3>Datos de anuncios</h3><dl><dt>Para qué</dt><dd>Mostrar anuncios</dd><dt>Dónde queda</dt><dd>Los maneja Google AdMob</dd><dt>¿Se envía?</dt><dd><span class="si">AdMob</span> Ver el punto 4</dd></dl></div>
 </section>
 
@@ -89,9 +87,9 @@ footer{text-align:center;color:var(--mut);font-size:.9em;margin-top:28px}
 <ul>
 <li>No acepta ni rechaza viajes y no toca la pantalla por vos.</li>
 <li>No te pide usuario ni contraseña de ninguna app.</li>
-<li>No lee mensajes, contraseñas ni datos de otras apps.</li>
+<li>No lee mensajes, contraseñas, fotos ni otras apps: solo mira la pantalla cuando una app de viaje está a la vista.</li>
 <li>No guarda datos de pasajeros.</li>
-<li>No usa el GPS en esta versión.</li>
+<li>No usa el GPS.</li>
 <li>No vende ni comparte tus datos.</li>
 </ul>
 </section>
@@ -99,10 +97,8 @@ footer{text-align:center;color:var(--mut);font-size:.9em;margin-top:28px}
 <section class="card ver">
 <h2><span class="num">3</span>Permisos y para qué se usan</h2>
 <ul>
-<li><b>Servicio de accesibilidad:</b> leer la oferta en las apps de viaje que elegís. Lo activás vos, después de un aviso, y lo podés desactivar en Ajustes de accesibilidad.</li>
-<li><b>Mostrar sobre otras apps:</b> dibujar el botón flotante y la franja con la ganancia neta.</li>
-<li><b>Acceso a datos de uso:</b> saber si una app de viaje está al frente.</li>
-<li><b>Notificaciones:</b> avisar que radiAr está activo o en pausa.</li>
+<li><b>Servicio de accesibilidad:</b> leer la oferta en las apps de viaje y mostrar encima la franja y el botón de radiAr. Lo activás vos, después de un aviso, y lo podés desactivar en Ajustes de accesibilidad.</li>
+<li><b>Notificaciones:</b> avisar que radiAr está activo.</li>
 <li><b>Internet:</b> descargar las listas de datos públicos y cargar anuncios.</li>
 <li><b>Vibración:</b> solo para la alerta de seguridad, si la activás.</li>
 </ul>
@@ -140,7 +136,7 @@ footer{text-align:center;color:var(--mut);font-size:.9em;margin-top:28px}
 
 <section class="card ver">
 <h2><span class="num">10</span>Cambios</h2>
-<p>Si radiAr agrega funciones que usen más datos (por ejemplo, el aporte voluntario de datos de calles), actualizamos esta política y te pedimos tu consentimiento antes de usarlos.</p>
+<p>Si radiAr agrega funciones que usen más datos (por ejemplo, el aporte voluntario de eventos o calles), actualizamos esta política y te pedimos tu consentimiento antes de usarlos.</p>
 </section>
 
 <footer>radiAr · HEBER OVANDO · <a href="mailto:hachexdos@gmail.com">hachexdos@gmail.com</a></footer>
