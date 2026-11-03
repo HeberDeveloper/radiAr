@@ -31,6 +31,9 @@ jobs:
       - name: Zonas de alerta
         continue-on-error: true
         run: python zonas_alerta.py
+      - name: Ferias
+        continue-on-error: true
+        run: python ferias_osm.py
       - name: Guardar resultados
         run: |
           git config user.name "radiAr bot"
