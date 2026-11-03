@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Términos de uso de radiAr</title>
+<meta name="theme-color" content="#0a0820">
+<style>
+:root{--bg:#0a0820;--card:#141033;--line:#2c2366;--tx:#e9e7ff;--mut:#a9a3d6;--cy:#22e5ff;--mg:#ff3fd2;--vi:#8a5cff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:-20%;z-index:-1;background:
+radial-gradient(40% 35% at 15% 10%,rgba(138,92,255,.28),transparent 70%),
+radial-gradient(35% 30% at 90% 25%,rgba(255,63,210,.18),transparent 70%),
+radial-gradient(40% 35% at 50% 100%,rgba(34,229,255,.12),transparent 70%);
+animation:deriva 18s ease-in-out infinite alternate}
+@keyframes deriva{to{transform:translate(3%,-3%) scale(1.05)}}
+.wrap{max-width:860px;margin:0 auto;padding:28px 16px 48px}
+header{text-align:center;padding:26px 0 10px}
+.marca{font-size:clamp(34px,8vw,52px);font-weight:800;letter-spacing:.02em;margin:0}
+.marca b{color:var(--cy);text-shadow:0 0 18px rgba(34,229,255,.7)}
+.orbita{width:120px;height:120px;margin:0 auto 14px;position:relative}
+.orbita i{position:absolute;inset:0;border-radius:50%;border:2px solid transparent;border-top-color:var(--cy);border-right-color:rgba(138,92,255,.6);animation:gira 6s linear infinite}
+.orbita i:nth-child(2){inset:16px;border-top-color:var(--mg);border-left-color:rgba(34,229,255,.4);animation-duration:9s;animation-direction:reverse}
+.orbita i:nth-child(3){inset:34px;border-top-color:var(--vi);animation-duration:4s}
+.orbita span{position:absolute;inset:48px;border-radius:50%;background:radial-gradient(circle,var(--cy),transparent 70%);animation:late 2.4s ease-in-out infinite}
+@keyframes gira{to{transform:rotate(360deg)}}
+@keyframes late{50%{opacity:.4;transform:scale(.8)}}
+h1{font-size:clamp(20px,4.5vw,26px);margin:8px 0 4px;font-weight:700}
+.meta{color:var(--mut);font-size:.95em}
+.meta a{color:var(--cy)}
+.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:22px 0 8px}
+.chip{display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:rgba(20,16,51,.8);border:1px solid var(--line);font-weight:600;font-size:.95em;box-shadow:0 0 0 1px rgba(138,92,255,.15),0 0 18px rgba(138,92,255,.15)}
+.chip svg{width:20px;height:20px;flex:none}
+.card{position:relative;background:linear-gradient(180deg,rgba(28,22,70,.9),rgba(20,16,51,.9));border:1px solid var(--line);border-radius:18px;padding:18px 18px 14px;margin:16px 0;overflow:hidden}
+.card:before{content:"";position:absolute;left:0;top:0;height:2px;width:100%;background:linear-gradient(90deg,transparent,var(--cy),var(--mg),transparent);opacity:.8}
+.card h2{display:flex;align-items:center;gap:12px;font-size:1.12em;margin:2px 0 10px;color:#fff}
+.num{flex:none;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:.85em;font-weight:800;color:var(--bg);background:linear-gradient(135deg,var(--cy),var(--vi));box-shadow:0 0 14px rgba(34,229,255,.5)}
+.card ul{margin:0;padding-left:20px}
+.card li{margin:6px 0}
+.card li::marker{color:var(--cy)}
+.dato{background:rgba(10,8,32,.55);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:10px 0}
+.dato h3{margin:0 0 6px;font-size:1em;color:#fff}
+.dato dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:0;font-size:.93em}
+.dato dt{color:var(--mut)}
+.dato dd{margin:0}
+.no{display:inline-block;padding:1px 10px;border-radius:999px;font-weight:700;font-size:.85em;color:var(--bg);background:var(--cy)}
+.si{display:inline-block;padding:1px 10px;border-radius:999px;font-weight:700;font-size:.85em;color:#fff;background:linear-gradient(90deg,var(--vi),var(--mg))}
+a{color:var(--cy)}
+footer{text-align:center;color:var(--mut);font-size:.9em;margin-top:28px}
+.ver{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
+.ver.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*,*:before{animation:none!important;transition:none!important}.ver{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+<div class="orbita"><i></i><i></i><i></i><span></span></div>
+<p class="marca">rad<b>iA</b>r</p>
+<h1>Términos de uso</h1>
+<p class="meta">Última actualización: 3 de noviembre de 2026<br>Responsable: HEBER OVANDO · Contacto: <a href="mailto:hachexdos@gmail.com">hachexdos@gmail.com</a></p>
+</header>
+<section class="card ver">
+<h2><span class="num">1</span>Qué es radiAr</h2>
+<p>radiAr es una herramienta informativa para conductores de apps de viaje. Lee en pantalla la oferta que usted ya ve, estima su ganancia neta y muestra alertas de seguridad. Al usar radiAr, usted acepta estos términos.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">2</span>Independencia</h2>
+<p>radiAr es independiente. No está afiliada, patrocinada ni respaldada por ninguna app de viaje ni empresa de transporte. Las marcas pertenecen a sus dueños.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">3</span>radiAr no actúa por usted</h2>
+<p>radiAr no acepta, no rechaza ni modifica viajes, no toca la pantalla por usted y no se conecta con las cuentas de las apps de viaje. Cada decisión es siempre suya. Usted es responsable de usar las apps de viaje según sus propios términos.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">4</span>Información estimada</h2>
+<p>Ganancia neta, gastos por kilómetro, comisiones, horarios de eventos, lluvia y alertas son estimaciones orientativas basadas en lo que se lee en pantalla, en lo que usted carga y en fuentes públicas. Pueden contener errores u omisiones. radiAr no garantiza su exactitud ni su disponibilidad en todo momento.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">5</span>Alertas de seguridad</h2>
+<p>Las alertas de zonas, escuelas, eventos, ferias, lluvia y otras son informativas y no reemplazan su criterio, las normas de tránsito ni las indicaciones de las autoridades. Ante una emergencia, comuníquese con los servicios de emergencia.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">6</span>Asistencia: reclamos, descargos y choques</h2>
+<p>Las herramientas de Asistencia y “Tuve un choque” solo le ayudan a ordenar información y redactar un texto. radiAr no interviene en reclamos, descargos ni siniestros, no se comunica con ninguna empresa ni aseguradora, no promete ningún resultado y no brinda asesoramiento legal ni de seguros. El contenido y el envío de cada mensaje son responsabilidad de usted.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">7</span>Uso mientras conduce</h2>
+<p>No manipule el teléfono mientras conduce. Use radiAr con el vehículo detenido o con la voz de ofertas, respetando las leyes de tránsito de su país.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">8</span>Limitación de responsabilidad</h2>
+<p>En la medida permitida por la ley, radiAr y su titular no son responsables por pérdidas de ingresos, sanciones, suspensiones de cuenta, accidentes, daños ni decisiones tomadas a partir de la información de la app. La app se ofrece “tal cual”, sin garantías de ningún tipo.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">9</span>Anuncios y compras</h2>
+<p>radiAr puede mostrar anuncios de Google AdMob en sus propias pantallas y ofrecer funciones pagas. Los cobros, pruebas gratuitas y cancelaciones se gestionan por Google Play según sus políticas.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">10</span>Privacidad</h2>
+<p>El uso de datos se explica en la <a href="privacidad.html">Política de privacidad</a>.</p>
+</section>
+
+<section class="card ver">
+<h2><span class="num">11</span>Cambios y contacto</h2>
+<p>Podemos actualizar estos términos; la versión vigente está siempre en esta página. Consultas: <a href="mailto:hachexdos@gmail.com">hachexdos@gmail.com</a>.</p>
+</section>
+
+<footer>radiAr · HEBER OVANDO · <a href="mailto:hachexdos@gmail.com">hachexdos@gmail.com</a></footer>
+</div>
+<script>
+(function(){var s=document.querySelectorAll('.ver');if(!('IntersectionObserver'in window)){s.forEach(function(e){e.classList.add('on')});return}
+var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');o.unobserve(e.target)}})},{threshold:.12});
+s.forEach(function(e){o.observe(e)})})();
+</script>
+</body>
+</html>
