@@ -2,7 +2,8 @@
 """radiAr: lluvia en vivo por ciudad, cada hora.
 Fuente: MET Norway, Locationforecast 2.0 (api.met.no), licencia CC BY 4.0: "Datos del tiempo: MET Norway".
 Para cada ciudad se mira la lluvia prevista para la proxima hora en su centro (coordenadas aproximadas).
-Si es 0,3 mm o mas, la app prende la alerta INUNDABLE en las calles marcadas como inundables de esa ciudad.
+Si es 15 mm o mas (lluvia fuerte segun el SMN), la app prende la alerta INUNDABLE en las calles marcadas
+como inundables de esa ciudad. La app decide con "mm"; "lluvia" queda por compatibilidad.
 Salida: datos/lluvia.json (unos pocos kilobytes: la app lo baja cada media hora)."""
 import json
 import os
@@ -16,7 +17,7 @@ from datetime import datetime, timezone
 # MET Norway pide identificarse con el nombre de la app y un contacto (el repositorio).
 UA = {"User-Agent": "radiAr-datos/1.0 github.com/HeberDeveloper/radiAr"}
 URL = "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat={lat}&lon={lon}"
-UMBRAL_MM = 0.3
+UMBRAL_MM = 15.0
 
 # nombre, pais, latitud, longitud (centro aproximado)
 CIUDADES = [
