@@ -15,7 +15,7 @@ import urllib.request
 from datetime import datetime, timezone
 
 # MET Norway pide identificarse con el nombre de la app y un contacto (el repositorio).
-UA = {"User-Agent": "radiAr-datos/1.0 github.com/HeberDeveloper/radiAr"}
+UA = {"User-Agent": "radiAr-datos/1.0 github.com/radiarapp/radiAr"}
 URL = "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat={lat}&lon={lon}"
 UMBRAL_MM = 15.0
 
