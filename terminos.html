@@ -1,174 +1,65 @@
-<!doctype html>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Términos y condiciones de radiAr</title>
-<meta name="theme-color" content="#0a0820">
-<style>
-:root{--bg:#0a0820;--card:#141033;--line:#2c2366;--tx:#e9e7ff;--mut:#a9a3d6;--cy:#22e5ff;--mg:#ff3fd2;--vi:#8a5cff}
-*{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;line-height:1.6;overflow-x:hidden}
-body:before{content:"";position:fixed;inset:-20%;z-index:-1;background:
-radial-gradient(40% 35% at 15% 10%,rgba(138,92,255,.28),transparent 70%),
-radial-gradient(35% 30% at 90% 25%,rgba(255,63,210,.18),transparent 70%),
-radial-gradient(40% 35% at 50% 100%,rgba(34,229,255,.12),transparent 70%);
-animation:deriva 18s ease-in-out infinite alternate}
-@keyframes deriva{to{transform:translate(3%,-3%) scale(1.05)}}
-.wrap{max-width:860px;margin:0 auto;padding:28px 16px 48px}
-header{text-align:center;padding:26px 0 10px}
-.marca{font-size:clamp(34px,8vw,52px);font-weight:800;letter-spacing:.02em;margin:0}
-.marca b{color:var(--cy);text-shadow:0 0 18px rgba(34,229,255,.7)}
-.orbita{width:120px;height:120px;margin:0 auto 14px;position:relative}
-.orbita i{position:absolute;inset:0;border-radius:50%;border:2px solid transparent;border-top-color:var(--cy);border-right-color:rgba(138,92,255,.6);animation:gira 6s linear infinite}
-.orbita i:nth-child(2){inset:16px;border-top-color:var(--mg);border-left-color:rgba(34,229,255,.4);animation-duration:9s;animation-direction:reverse}
-.orbita i:nth-child(3){inset:34px;border-top-color:var(--vi);animation-duration:4s}
-.orbita span{position:absolute;inset:48px;border-radius:50%;background:radial-gradient(circle,var(--cy),transparent 70%);animation:late 2.4s ease-in-out infinite}
-@keyframes gira{to{transform:rotate(360deg)}}
-@keyframes late{50%{opacity:.4;transform:scale(.8)}}
-h1{font-size:clamp(20px,4.5vw,26px);margin:8px 0 4px;font-weight:700}
-.meta{color:var(--mut);font-size:.95em}
-.meta a{color:var(--cy)}
-.chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:22px 0 8px}
-.chip{display:flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:rgba(20,16,51,.8);border:1px solid var(--line);font-weight:600;font-size:.95em;box-shadow:0 0 0 1px rgba(138,92,255,.15),0 0 18px rgba(138,92,255,.15)}
-.chip svg{width:20px;height:20px;flex:none}
-.card{position:relative;background:linear-gradient(180deg,rgba(28,22,70,.9),rgba(20,16,51,.9));border:1px solid var(--line);border-radius:18px;padding:18px 18px 14px;margin:16px 0;overflow:hidden}
-.card:before{content:"";position:absolute;left:0;top:0;height:2px;width:100%;background:linear-gradient(90deg,transparent,var(--cy),var(--mg),transparent);opacity:.8}
-.card h2{display:flex;align-items:center;gap:12px;font-size:1.12em;margin:2px 0 10px;color:#fff}
-.num{flex:none;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;font-size:.85em;font-weight:800;color:var(--bg);background:linear-gradient(135deg,var(--cy),var(--vi));box-shadow:0 0 14px rgba(34,229,255,.5)}
-.card ul{margin:0;padding-left:20px}
-.card li{margin:6px 0}
-.card li::marker{color:var(--cy)}
-.dato{background:rgba(10,8,32,.55);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin:10px 0}
-.dato h3{margin:0 0 6px;font-size:1em;color:#fff}
-.dato dl{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;margin:0;font-size:.93em}
-.dato dt{color:var(--mut)}
-.dato dd{margin:0}
-.no{display:inline-block;padding:1px 10px;border-radius:999px;font-weight:700;font-size:.85em;color:var(--bg);background:var(--cy)}
-.si{display:inline-block;padding:1px 10px;border-radius:999px;font-weight:700;font-size:.85em;color:#fff;background:linear-gradient(90deg,var(--vi),var(--mg))}
-a{color:var(--cy)}
-footer{text-align:center;color:var(--mut);font-size:.9em;margin-top:28px}
-.ver{opacity:0;transform:translateY(16px);transition:opacity .6s ease,transform .6s ease}
-.ver.on{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){*,*:before{animation:none!important;transition:none!important}.ver{opacity:1;transform:none}}
-</style>
-</head>
-<body>
-<div class="wrap">
-<header>
-<div class="orbita"><i></i><i></i><i></i><span></span></div>
-<p class="marca">rad<b>iA</b>r</p>
-<h1>Términos y Condiciones de Uso</h1>
-<p class="meta">Vigente desde el 6 de noviembre de 2026<br>Titular: HEBER OVANDO · Contacto: <a href="mailto:hachexdos@gmail.com">hachexdos@gmail.com</a></p>
-<div class="chips"><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="#22e5ff" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4"/></svg>Herramienta informativa</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="#ff3fd2" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg>Independiente de las apps de viaje</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="#8a5cff" stroke-width="2"><path d="M9 11V5a2 2 0 014 0v6"/><path d="M13 9a2 2 0 014 0v4a7 7 0 01-14 0v-2a2 2 0 014 0"/><path d="M3 3l18 18"/></svg>La decisión es siempre suya</span></div>
-</header>
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Términos y condiciones — radiAr</title><style>
+:root{--bg:#080b1f;--card:#11153a;--txt:#e7ebf7;--sub:#aab4cf;--c:#00e5ff;--m:#ff5fd2}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:17px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:780px;margin:0 auto;padding:28px 20px 60px}
+header{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid #24306a;padding-bottom:14px;margin-bottom:10px}
+.logo{font-weight:800;font-size:28px;letter-spacing:1px}.logo b{color:var(--c)}
+.tag{color:var(--c);letter-spacing:4px;font-size:13px;font-weight:700;margin-top:26px}
+h1{font-size:32px;margin:6px 0 4px}h2{color:var(--c);font-size:22px;margin:34px 0 8px}
+.fecha{color:var(--sub);font-size:15px}p,li{color:var(--txt)}li{margin:6px 0}
+.res{background:var(--card);border:2px solid #2c3a80;border-radius:18px;padding:14px 20px}
+table{width:100%;border-collapse:collapse;margin:10px 0;font-size:15px}th,td{border:1px solid #2c3a80;padding:8px 10px;text-align:left;vertical-align:top}th{background:#161c4a;color:var(--c)}
+.aaip{border:2px solid #556;border-radius:14px;padding:14px 18px;color:var(--sub);font-size:14px;margin-top:16px}
+a{color:var(--c)}footer{margin-top:40px;border-top:1px solid #24306a;padding-top:14px;color:var(--sub);font-size:14px;text-align:center}
+</style></head><body><main><header><div class="logo">radi<b>A</b>r</div></header>
+<div class="tag">LEGAL</div><h1>Términos y condiciones</h1><div class="fecha">Última actualización: 26 de noviembre de 2026</div>
+<p>Estos términos regulan el uso de la app <b>radiAr</b> para Android. Al instalarla y usarla, usted los acepta. Si no está de acuerdo, no la use.</p>
 
-<section class="card ver">
-<p>Los presentes Términos y Condiciones de Uso (en adelante, los “Términos”) regulan el acceso y la utilización de la aplicación móvil <b>radiAr</b> (en adelante, la “Aplicación”), cuyo titular es HEBER OVANDO (en adelante, el “Titular”), por parte de toda persona que la instale o utilice (en adelante, el “Usuario”). Le recomendamos leerlos con atención.</p>
-</section>
+<h2>1. Qué es radiAr</h2>
+<p>radiAr es una herramienta de información para conductores de apps de viaje. Lee la oferta que usted ya ve en pantalla, le muestra una ganancia neta estimada, valores por kilómetro y por hora, y alertas; además le ofrece un balance de sus viajes y gastos, y herramientas de seguridad y asistencia.</p>
 
-<section class="card ver">
-<h2><span class="num">1</span>Objeto</h2>
-<p>radiAr es una herramienta informativa para conductores de aplicaciones de transporte. Interpreta la oferta de viaje que el Usuario ya tiene en pantalla, estima su ganancia neta, muestra alertas de seguridad de carácter informativo y ofrece herramientas de organización: balance de ingresos y gastos, registro de reclamos, descargos e informe de choque, entre otras.</p>
-</section>
+<h2>2. Quién puede usarla</h2>
+<p>Personas mayores de 18 años. Usted es responsable de usarla de acuerdo con la ley y con los términos de las apps de viaje con las que trabaja.</p>
 
-<section class="card ver">
-<h2><span class="num">2</span>Aceptación</h2>
-<p>La instalación o el uso de la Aplicación implica la aceptación plena de estos Términos y de la <a href="privacidad.html">Política de Privacidad</a>, que forma parte integrante de ellos. Si el Usuario no está de acuerdo, deberá abstenerse de utilizar la Aplicación.</p>
-</section>
+<h2>3. La decisión es siempre suya</h2>
+<p>radiAr no acepta ni rechaza viajes ni actúa en otras apps. Toda decisión sobre un viaje la toma usted.</p>
 
-<section class="card ver">
-<h2><span class="num">3</span>Requisitos del Usuario</h2>
-<p>La Aplicación está destinada a personas mayores de 18 años, con capacidad legal para contratar, que se desempeñen como conductores. El Usuario es responsable de contar con las habilitaciones que exija su jurisdicción para su actividad.</p>
-</section>
+<h2>4. Los valores son estimados</h2>
+<p>Las ganancias, los costos y los demás valores son <b>estimaciones</b>. Dependen de lo que se lee en pantalla y de los datos que usted carga. Pueden tener errores y no garantizan ningún resultado. El balance y los informes no son comprobantes oficiales ni tienen validez fiscal.</p>
 
-<section class="card ver">
-<h2><span class="num">4</span>Licencia de uso</h2>
-<p>El Titular otorga al Usuario una licencia personal, gratuita, no exclusiva, intransferible y revocable para utilizar la Aplicación en sus dispositivos, con fines propios y conforme a estos Términos. Queda prohibido copiar, modificar, descompilar, distribuir o explotar comercialmente la Aplicación o sus contenidos, salvo autorización escrita del Titular.</p>
-</section>
+<h2>5. Alertas</h2>
+<p>Las alertas (zona, escuela, zona inundable, calle de tierra, evento, entre otras) son informativas y surgen de datos públicos o estimados. Pueden faltar, estar desactualizadas o no coincidir con la realidad. No reemplazan su criterio ni las normas de tránsito.</p>
 
-<section class="card ver">
-<h2><span class="num">5</span>Funcionamiento: la decisión es siempre del Usuario</h2>
-<p>La Aplicación <b>no acepta, no rechaza ni modifica viajes</b>, no ejecuta toques ni gestos en nombre del Usuario, no se conecta con las cuentas de las aplicaciones de transporte y no automatiza ninguna acción dentro de ellas. Se limita a mostrar información sobre lo que el Usuario ya ve. Toda decisión es tomada exclusivamente por el Usuario.</p>
-</section>
+<h2>6. Seguridad al manejar</h2>
+<p>No manipule el celular mientras maneja. Use radiAr con el vehículo detenido o de manera que no lo distraiga.</p>
 
-<section class="card ver">
-<h2><span class="num">6</span>Naturaleza de la información</h2>
-<p>La ganancia neta, el costo por kilómetro, las comisiones, los balances, los horarios de eventos, el pronóstico de lluvia y las alertas son <b>estimaciones de carácter orientativo</b>, elaboradas a partir de lo que se lee en pantalla, de los datos que carga el Usuario y de fuentes públicas. Pueden presentar diferencias con los valores reales. Los informes y balances que genera la Aplicación no constituyen comprobantes oficiales ni tienen validez fiscal.</p>
-</section>
+<h2>7. Herramientas de asistencia</h2>
+<p>Los modelos de reclamo y descargo, y el informe de choque, son ayudas para redactar. No son asesoramiento legal ni de seguros. Usted revisa y decide qué envía.</p>
 
-<section class="card ver">
-<h2><span class="num">7</span>Alertas de seguridad</h2>
-<p>Las alertas (zonas, escuelas, eventos, ferias, lluvia, vías rápidas y otras) tienen fines exclusivamente informativos y no sustituyen el criterio del Usuario, las normas de tránsito ni las indicaciones de las autoridades. Ante una emergencia, el Usuario debe comunicarse con los servicios de emergencia de su país.</p>
-</section>
+<h2>8. Independencia y marcas</h2>
+<p>radiAr no está afiliada ni respaldada por Uber, DiDi, Cabify, Bolt ni otras empresas. Las marcas mencionadas pertenecen a sus dueños y se nombran solo para indicar con qué apps funciona radiAr.</p>
 
-<section class="card ver">
-<h2><span class="num">8</span>Herramientas de asistencia</h2>
-<p>Las funciones de reclamo, descargo, informe de choque y exportación del balance son herramientas para que el Usuario ordene su propia información y redacte sus textos. La Aplicación no interviene en reclamos, descargos ni siniestros, no se comunica con empresas ni aseguradoras en nombre del Usuario y no constituye asesoramiento legal, contable, impositivo ni de seguros. El contenido, la veracidad y el envío de cada texto o informe corresponden exclusivamente al Usuario.</p>
-</section>
+<h2>9. Precio y publicidad</h2>
+<p>radiAr es gratis y muestra anuncios de terceros (Google AdMob) en sus propias pantallas. Los puntos y premios del álbum no tienen valor en dinero, no se canjean por dinero y no dependen de apuestas ni azar pagos. Si en el futuro se ofrecen funciones pagas, se cobrarán por Google Play con sus condiciones, que se le mostrarán antes de pagar.</p>
 
-<section class="card ver">
-<h2><span class="num">9</span>Obligaciones del Usuario</h2>
-<ul><li>No manipular el dispositivo mientras conduce: utilizar la Aplicación con el vehículo detenido y respetar la normativa de tránsito.</li><li>Utilizar las aplicaciones de transporte conforme a sus propios términos.</li><li>Hacer un uso lícito de la Aplicación y no emplearla para fines contrarios a la ley, la moral o el orden público.</li><li>Cargar información veraz en las herramientas que así lo requieran.</li><li>En “Opinar”, no incluir datos personales de terceros (por ejemplo, de pasajeros) ni información confidencial. Al enviar una opinión, el Usuario autoriza al Titular a utilizar sus sugerencias para mejorar la Aplicación, sin que ello genere obligación ni compensación alguna.</li></ul>
-</section>
+<h2>10. Privacidad</h2>
+<p>El tratamiento de datos se explica en la <a href="privacidad.html">Política de privacidad</a>, que forma parte de estos términos.</p>
 
-<section class="card ver">
-<h2><span class="num">10</span>Independencia y marcas</h2>
-<p>radiAr es una aplicación independiente. No está afiliada, asociada, patrocinada ni respaldada por ninguna aplicación de transporte ni empresa de movilidad. Las marcas y nombres comerciales de terceros pertenecen a sus respectivos titulares y solo se mencionan, cuando corresponde, para indicar compatibilidad.</p>
-</section>
+<h2>11. Propiedad intelectual</h2>
+<p>La app, su diseño, sus textos y su código pertenecen a radiAr. Se le otorga una licencia personal, gratuita y no exclusiva para usarla. No está permitido copiarla, modificarla ni redistribuirla.</p>
 
-<section class="card ver">
-<h2><span class="num">11</span>Publicidad y beneficios</h2>
-<p>La Aplicación es gratuita y se sostiene con publicidad de Google AdMob, exhibida exclusivamente en sus pantallas propias. Algunos anuncios son optativos y otorgan un beneficio dentro de la Aplicación (por ejemplo, habilitar una función por el día). Los beneficios, puntos y elementos coleccionables de la Aplicación no tienen valor monetario, no son canjeables por dinero ni transferibles, y su obtención no depende de pagos ni constituye un juego de azar.</p>
-</section>
+<h2>12. Disponibilidad y cambios</h2>
+<p>radiAr puede dejar de leer ofertas si las apps de viaje cambian sus pantallas, y puede actualizarse, cambiar funciones o dejar de estar disponible. Haremos lo posible por mantenerla funcionando.</p>
 
-<section class="card ver">
-<h2><span class="num">12</span>Funciones pagas</h2>
-<p>El Titular podrá ofrecer funciones pagas o suscripciones opcionales. Su precio, renovación, período de prueba y cancelación se informan antes de la contratación y son gestionados por Google Play conforme a sus políticas. La cancelación puede realizarse en cualquier momento desde Google Play.</p>
-</section>
+<h2>13. Responsabilidad</h2>
+<p>radiAr se ofrece "tal cual", como ayuda informativa. En la medida permitida por la ley, radiAr no responde por decisiones tomadas en base a sus estimaciones ni por daños indirectos. Nada de esto limita los derechos que le otorga la Ley 24.240 de Defensa del Consumidor.</p>
 
-<section class="card ver">
-<h2><span class="num">13</span>Propiedad intelectual</h2>
-<p>La Aplicación, su nombre, logotipo, diseño, código y contenidos propios son titularidad de HEBER OVANDO y se encuentran protegidos por la normativa de propiedad intelectual. Los datos de terceros (OpenStreetMap, MET Norway y otras fuentes públicas) se utilizan conforme a sus licencias.</p>
-</section>
+<h2>14. Cambios en estos términos</h2>
+<p>Si cambiamos estos términos, actualizamos esta página y la fecha de arriba. Si el cambio es importante, se lo avisamos en la app.</p>
 
-<section class="card ver">
-<h2><span class="num">14</span>Disponibilidad del servicio</h2>
-<p>El Titular procura el correcto funcionamiento de la Aplicación, pero no garantiza su disponibilidad ininterrumpida, ya que depende, entre otros factores, de cambios en las aplicaciones de terceros, del sistema operativo y de la conexión del Usuario. El Titular podrá actualizar, modificar o discontinuar funciones para mejorar el servicio.</p>
-</section>
+<h2>15. Ley aplicable</h2>
+<p>Estos términos se rigen por las leyes de la República Argentina. Para usuarios de otros países se aplican, además, las normas de protección al consumidor de su país.</p>
 
-<section class="card ver">
-<h2><span class="num">15</span>Limitación de responsabilidad</h2>
-<p>En la máxima medida permitida por la ley aplicable, la Aplicación se ofrece “en el estado en que se encuentra”. El Titular no será responsable por decisiones adoptadas por el Usuario sobre la base de la información de la Aplicación, ni por lucro cesante, sanciones, suspensiones o bajas de cuentas de terceros, siniestros o daños indirectos derivados de su uso. Nada de lo previsto en estos Términos limita los derechos irrenunciables que la normativa de defensa del consumidor reconozca al Usuario.</p>
-</section>
-
-<section class="card ver">
-<h2><span class="num">16</span>Modificaciones de los Términos</h2>
-<p>El Titular podrá modificar estos Términos. La versión vigente se publica siempre en esta página, con su fecha de vigencia. El uso de la Aplicación con posterioridad a una modificación implica su aceptación.</p>
-</section>
-
-<section class="card ver">
-<h2><span class="num">17</span>Ley aplicable y jurisdicción</h2>
-<p>Estos Términos se rigen por las leyes de la República Argentina. Cualquier controversia se someterá a los tribunales ordinarios competentes, sin perjuicio de los derechos que la normativa de protección al consumidor del país de residencia del Usuario le reconozca.</p>
-</section>
-
-<section class="card ver">
-<h2><span class="num">18</span>Divisibilidad</h2>
-<p>Si alguna disposición de estos Términos fuera declarada inválida, las restantes conservarán plena vigencia.</p>
-</section>
-
-<section class="card ver">
-<h2><span class="num">19</span>Contacto</h2>
-<p>Consultas y comunicaciones: <a href="mailto:hachexdos@gmail.com">hachexdos@gmail.com</a>.</p>
-</section>
-
-<footer>radiAr · HEBER OVANDO · <a href="mailto:hachexdos@gmail.com">hachexdos@gmail.com</a><br><a href="privacidad.html">Política de Privacidad</a></footer>
-</div>
-<script>
-(function(){var s=document.querySelectorAll('.ver');if(!('IntersectionObserver'in window)){s.forEach(function(e){e.classList.add('on')});return}
-var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('on');o.unobserve(e.target)}})},{threshold:.12});
-s.forEach(function(e){o.observe(e)})})();
-</script>
-</body>
-</html>
+<h2>16. Contacto</h2>
+<p>radiAr · <a href="mailto:radiar.soporte@gmail.com">radiar.soporte@gmail.com</a></p>
+<footer>radiAr · <a href="mailto:radiar.soporte@gmail.com">radiar.soporte@gmail.com</a><br><a href="privacidad.html">Política de privacidad</a> · <a href="terminos.html">Términos y condiciones</a></footer></main></body></html>
