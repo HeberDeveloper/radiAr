@@ -1,0 +1,26 @@
+name: Mapa por ciudad
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "41 7 3 * *"
+permissions:
+  contents: write
+jobs:
+  mapa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Mapa por ciudad (OpenStreetMap)
+        run: python osm_ciudades.py
+      - name: Guardar
+        run: |
+          git config user.name "radiAr-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add datos/osm
+          git diff --cached --quiet && exit 0
+          git commit -m "Mapa por ciudad"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 20; done
